@@ -152,6 +152,6 @@ int main() {
 
     auto map = readFile(filePath);
 
-    std::cout << solve(map, 100);
+    std::cout << solve(map, 1000000);
     return 0;
 }
