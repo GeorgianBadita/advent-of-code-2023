@@ -13,7 +13,7 @@ using std::ofstream;
 using std::pair;
 using std::queue;
 
-typedef long resType;
+typedef unsigned long long resType;
 
 resType dist[NMAX][NMAX];
 bool linesToAugment[NMAX];
@@ -152,6 +152,6 @@ int main() {
 
     auto map = readFile(filePath);
 
-    std::cout << solve(map, 10);
+    std::cout << solve(map, 100);
     return 0;
 }
